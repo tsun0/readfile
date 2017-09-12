@@ -5,7 +5,7 @@
 
 ## Use
 
-`git clone https://github.com/tsun0/readfile.git`
+`go get github.com/tsun0/readfile`
 
 ## Run on Mac localhost:8080
 
