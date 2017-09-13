@@ -1,21 +1,25 @@
+read file
+====
+
 ## Description
 
 - flagパッケージの勉強用
 - 特定のファイル・特定の行を読み込む
 
-## Use
-
-`go get github.com/tsun0/readfile`
-
-## Run on Mac localhost:8080
+## Install
 
 ```
-# readfileのディレクトリに移動
-cd readfile
+go get github.com/tsun0/readfile
+```
 
-# バイナリファイルを作成
-go build
+## Usage
 
-# "readfile"と書かれたファイルが作成されるので、実行
-./readfile -file [ファイル名] -line[指定の行数]
+```
+Usage of ./readfile:
+  ./readfile [OPTIONS] ARGS...
+Options
+  -file string
+    	reading file
+  -line int
+    	reading line
 ```
